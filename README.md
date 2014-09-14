@@ -8,7 +8,7 @@ Check the version of Docker you are downloading. These directions are current fo
 
 Example using curl from same directory as this README:
 
-curl -o opt/docker/bin/docker https://get.docker.io/builds/Linux/x86_64/docker-latest
+curl -o opt/docker/bin/docker https://get.docker.io/builds/Linux/x86_64/docker-1.2.0
 
 Then execute in the same directory as this README.md. Replace the values with the correct values from the documentation.
 
