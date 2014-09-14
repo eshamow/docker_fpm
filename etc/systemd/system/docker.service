@@ -1,0 +1,9 @@
+[Unit]
+Description=Docker Container Server
+After=syslog.target
+
+[Service]
+ExecStart=/opt/docker/bin/docker -d
+
+[Install]
+WantedBy=multi-user.target
